@@ -59,7 +59,47 @@
   </div>
 
   <!-- Q2.2 : compléter avec les autres champs -->
+   
+  <div class="mb-3">
+    <label for="prenom" class="form-label">prenom</label>
+    <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Votre prenom">
+  </div>
+  
+  <div class="mb-3">
+    <label for="email" class="form-label">adresse email</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="nom@exemple.com">
+  </div>
+  
+  <div class="mb-3">
+    <label for="mdp" class="form-label">mot de passe</label>
+    <input type="password" class="form-control" id="mdp" name="mdp" >
+  </div>
+  
+  <div class="mb-3">
+    <label for="tel" class="form-label">telephone</label>
+    <input type="number" class="form-control" id="tel" name="tel">
+  </div>
+  
+  <div class="mb-3">
+    <label for="naissance" class="form-label">date de naissance</label>
+    <input type="date" class="form-control" id="naissance" name="naissance" >
+  </div>
+  
+  <div class="mb-3">
+    <label for="age" class="form-label">age</label>
+    <input type="number" class="form-control" id="age" name="age" min="16" max="60">
+  </div>
 
+  <div class="mb-3">
+    <label for="site" class="form-label">site web aou  profile linkedin</label>
+    <input type="url" class="form-control" id="site" name="site" placeholder="facultatif">
+  </div>    
+
+  
+  <div class="mb-3">
+    <label for="time" class="form-label">heure de disponabilite pour un appel</label>
+    <input type="time" class="form-control" id="heure" name="heure">
+  </div>
   <button type="submit" class="btn btn-primary">Envoyer</button>
 </form>
   </div>
